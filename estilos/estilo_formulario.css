@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { /*cuerpo (color naranja)*/
+    width: 100%;
+    height: 3000px;
+    background-color: rgb(255, 255, 255);
+}
+
+.header { /*Tamaño_header_(fondo blanco)*/
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+.header .cabe_izq { /*fondo_imagen_banderaInglesa_rojo*/
+    width: 7%;
+    margin-left: 25px;
+    margin-right: -50px;
+    margin-top: 149px;
+    background-color: rgb(255, 183, 0);
+    height: 10px;
+    float: left;
+}
+
+.header .cabe_izq img { /*tamaño_imagen_banderaInglesa_rojo*/
+    width: 444%;
+    height: 145px;
+    margin-top: -165px;
+    margin-left: 4px;
+    
+    border-radius: 20px;
+}
+
+.header .cabe_izq_2 { /*fondo_imagen_realmadrid_azul*/
+    width: 7%;
+    margin-left: 0px;
+    margin-right: 55px;
+    background-color: rgb(0, 191, 255);
+    height: 150px;
+    float: right;
+}
+
+.header .cabe_izq_2 img { /*tamaño_imagen_realmadrid_azul*/
+    width: 100%;
+    height: 138px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.header .cabe_cen { /*Espacio_Central*/
+    width: 60%;
+    height: 130px;
+    margin-top: 33px;
+    margin-left: -20px;
+    float: left;
+    rotate: -3.5deg;
+    color: rgb(255, 255, 255);
+}
+               
+.header .cabe_cen .titulo{ /*Titulo_header_(REAL MADRID C. F.)*/
+    font-size: 60px;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 4px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+    color: blue;
+	-webkit-text-stroke: 1px #ffffff;
+	text-shadow: 7px 4px 4px red;
+}
+
+.header .cabe_cen .cuerpo_tit{ /*Texto_header_(parrafo)*/
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.header .cabe_der{ /*Espacio_para_imag_header*/
+    width: 15%;
+    height: 200px;
+    float: left;
+}
+
+.header .cabe_der img{ /*tamaño_imagen_escu.bogota*/
+    width: 44%;
+    height: 148px;
+    padding-top:15px;
+    margin-left: 120px;
+    float: left;
+}
+
+.nav { /*barra.de.navegacion_roja*/
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 179, 0);
+    color: rgb(4, 4, 4);
+    padding: 10px 20px;
+}
+
+.nav .logo{ /*Tamaño.Letra_(Bienvenidos)*/
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.nav_links{ /*Espacio.Estilos_(Inicio, conta...)*/
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav .nav_links li a{ /*Tamaño&Estilos_(Inicio, conta...)*/
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav .nav_links li a:hover{ /*Color.fondo.links_(Inicio, conta...)*/
+    font-size: 20PX;
+    background-color: rgb(3, 226, 255);
+}
+
+.main { /*Cuerpo_Main*/
+    width: 100%;
+    height: calc(126vh - 250px);
+    float: left;
+    background-color: rgb(0, 47, 255);
+}
+
+
+
+
+
+
+
+
+.formulario_registro {
+    width: 400px;
+    background-color: violet;
+    padding: 40px;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    box-shadow: 7px 13px 37px rgb(255, 1, 1);
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.formulario_registro h3{
+    font-size: 44px;
+    text-align: center;
+}
+
+.formulario_registro input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 238, 0);
+}
+
+.controles{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 238, 0);
+}

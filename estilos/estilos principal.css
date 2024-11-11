@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { /*cuerpo (color naranja)*/
+    width: 100%;
+    height: 3000px;
+    background-color: rgb(255, 0, 0);
+}
+
+.header { /*Tamaño_header_(fondo blanco)*/
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+.header .cabe_izq { /*fondo_imagen_banderaInglesa_rojo*/
+    width: 7%;
+    margin-left: 25px;
+    margin-right: -50px;
+    margin-top: 149px;
+    background-color: rgb(255, 183, 0);
+    height: 10px;
+    float: left;
+}
+
+.header .cabe_izq img { /*tamaño_imagen_banderaInglesa_rojo*/
+    width: 444%;
+    height: 145px;
+    margin-top: -165px;
+    margin-left: 4px;
+    
+    border-radius: 20px;
+}
+
+.header .cabe_izq_2 { /*fondo_imagen_realmadrid_azul*/
+    width: 7%;
+    margin-left: 0px;
+    margin-right: 55px;
+    background-color: rgb(0, 191, 255);
+    height: 150px;
+    float: right;
+}
+
+.header .cabe_izq_2 img { /*tamaño_imagen_realmadrid_azul*/
+    width: 100%;
+    height: 138px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.header .cabe_cen { /*Espacio_Central*/
+    width: 60%;
+    height: 130px;
+    margin-top: 33px;
+    margin-left: -20px;
+    float: left;
+    rotate: -3.5deg;
+    color: rgb(255, 255, 255);
+}
+               
+.header .cabe_cen .titulo{ /*Titulo_header_(REAL MADRID C. F.)*/
+    font-size: 60px;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 4px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+    color: blue;
+	-webkit-text-stroke: 1px #ffffff;
+	text-shadow: 7px 4px 4px red;
+}
+
+.header .cabe_cen .cuerpo_tit{ /*Texto_header_(parrafo)*/
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.header .cabe_der{ /*Espacio_para_imag_header*/
+    width: 15%;
+    height: 200px;
+    float: left;
+}
+
+.header .cabe_der img{ /*tamaño_imagen_escu.bogota*/
+    width: 44%;
+    height: 148px;
+    padding-top:15px;
+    margin-left: 120px;
+    float: left;
+}
+
+.nav { /*barra.de.navegacion_roja*/
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 179, 0);
+    color: rgb(4, 4, 4);
+    padding: 10px 20px;
+}
+
+.nav .logo{ /*Tamaño.Letra_(Bienvenidos)*/
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.nav_links{ /*Espacio.Estilos_(Inicio, conta...)*/
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav .nav_links li a{ /*Tamaño&Estilos_(Inicio, conta...)*/
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav .nav_links li a:hover{ /*Color.fondo.links_(Inicio, conta...)*/
+    font-size: 20PX;
+    background-color: rgb(3, 226, 255);
+}
+
+.main { /*Cuerpo_Main*/
+    width: 100%;
+    height: calc(126vh - 250px);
+    float: left;
+    background-color: rgb(0, 47, 255);
+}
+
+.main .section { /*Cuerpo_Main_Section*/
+    width: 70%;
+    height: calc(125vh - 250px);
+    float: left;
+    margin-top: 5px;
+    margin-left: 7px;
+    margin-right: 5px;
+    background-color: rgb(255, 217, 0);
+}
+
+.main .section .imag{ /*Titulo_Section_(Noticia Principal)*/
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: black;
+}
+
+.main .section .imag img{ /*Tamaño_imag_Section*/
+    width: 1250px;
+    height: 600px;
+    margin-top: 15px;
+}
+
+.main .section .imag .subtit{ /*SubTitulo_Section_(Trofeos)*/
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.main .section .imag .cuerpo_subtit{ /*Texto_SubTitulo Section_(Parrafo)*/
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.main .aside { /*Cuerpo_Main_Aside*/
+    width: 29%;
+    height: calc(125vh - 250px);
+    margin-top: 5px;
+    float: left;
+    background-color: rgb(115, 203, 232);
+}
+
+.main .aside .titulo_aside /*Titulo Aside_(Noticia)*/
+{
+    font-size: 40px;
+    margin-top: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.main .aside .imagen_aside /*Espacio_para_imag_Aside*/
+{
+    width: 500px;
+    height: 220px;
+    text-align: left;
+    
+}
+
+.main .aside .imagen_aside img /*Tamaño_imag_Aside*/
+{
+    width: 500px;
+    height: 220px;
+    padding-top: 10px;
+    margin-left: 13px;
+    float: left;
+  
+}
+
+.main .aside .subti_aside /*SubTitulo Aside_(Paisajes Naturales)*/
+{
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main .aside .noticia_aside /*Texto_SubTitulo Aside_(Parrafo)*/
+{
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.footer { /*Cuerpo_footer*/
+    width: 100%;
+    height: 100px;
+    background-color: rgb(137, 117, 239);
+}

@@ -1,0 +1,74 @@
+<?php
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+   <link rel="stylesheet" href="estilos/estilo_formulario.css"> 
+   <title>Document</title>
+</head>
+<body>
+
+
+
+
+    <header>
+        <div class="header">
+            <div class="cabe_izq">
+                <img src="imgs/EL.png" alt="imagen cabecera izq">
+            </div>
+            <div class="cabe_izq_2">
+                <img src="imgs/bogot4.png" alt="imagen cabecera izq">
+            </div>
+            <div class="cabe_cen">
+                <div class="titulo"></div>
+                <div class="cuerpo_tit">
+                    
+                </div>
+            </div>
+            <div class="cabe_der">
+                <img src="imgs/sena2.png" alt="">
+            </div>
+
+        </div>
+    </header>
+    <nav class="nav">
+        <div class="logo"></div>
+        <ul class="nav_links">
+            <li><a href="1. principal.php">INICIO</a></li>
+        </ul>
+    </nav>
+
+
+
+
+    <main class="main">
+        <section>
+            <div class="formulario_registro">
+                <h3>formulario adicion usuario</h3>
+                <form action=""metod="post">
+                <input class="controles" type="text" name="id_usuario" id="id_usuario" placeholder="identidad_usuario" value="">
+                    <input class="controles" type="text" name="nombre_us" id="nombre_us" value="" placeholder="nombre_usuario">
+                    <input class="controles" type="text" name="apellido_us" id="apellido_us" value="" placeholder="apellido_usuario">
+                    <input class="controles" type="text" name="direccion_us" id="direccion_us" value="" placeholder="direccion_usuario">
+                    <input class="controles" type="text" name="correo_us" id="correo_us" value="" placeholder="correo_usuario">
+                    <select class= "controles" name="tipo" id="tipo">
+                        <option value="1">Administradores</option>
+                        <option value="2">Gerentes</option>
+                        <option value="3">Clientes</option>
+                        <option value="4">Proveedores</option>
+                    </select>
+                    <input type="submit" name="enviar" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            este es el Footer
+        </div>
+    </footer>
+</body>
+</html>
